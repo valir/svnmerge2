@@ -1,6 +1,6 @@
 # svnmerge2.py
 **svnmerge2.py** is a tool for automatic branch management, inspired from the original [svnmerge.py tool](https://www.orcaware.com/svn/wiki/Svnmerge.py)
-It comes helps reduce merging errors and it's compatible with other tools such as *TortoiseSVN*.
+It helps reduce merging errors and it's compatible with other tools such as *TortoiseSVN*.
 
 **svnmerge2.py** differs from the original *svnmerge.py* tool in several ways:
 * it won't require an "init" step. **svnmerge2.py** will start merging your branches right away
