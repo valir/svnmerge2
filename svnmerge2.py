@@ -327,8 +327,8 @@ class SvnMerge:
              if len(self.available_commits) > 0 else "") +
             Fore.YELLOW + u"Q" + Fore.RESET + u" Quitter",
             self.STATE_MARK_FOR_IGNORE: lambda:
-            Fore.YELLOW + u"V" + Fore.RESET + u" Valider le choix" +
-            Fore.YELLOW + u"I" + Fore.RESET + u" Marquer d'autres lignes..." +
+            Fore.YELLOW + u"V" + Fore.RESET + u" Valider le choix " +
+            Fore.YELLOW + u"I" + Fore.RESET + u" Marquer d'autres lignes... " +
             Fore.YELLOW + u"D" + Fore.RESET + u" montre/cache les détail des fichiers | " +
             Fore.YELLOW + u"Q" + Fore.RESET + u" Quitter",
             self.STATE_MARK_FOR_COMMIT: lambda:
