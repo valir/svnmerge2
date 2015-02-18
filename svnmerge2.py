@@ -247,6 +247,8 @@ class SvnMerge:
         else:
             mi_revs_list = mi_revs.split(',')
             for s in mi_revs_list:
+                if s.endswith('*'):
+                    s = s.rstrip('*')
                 if s.find('-') > 0:
                     r = s.split('-')
                     for i in list(range(int(r[0]), int(r[1]) + 1)):
